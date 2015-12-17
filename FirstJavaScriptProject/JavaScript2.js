@@ -15,5 +15,18 @@ var arrays = ["1", "2", "3"];
 
 //Pętla for 
 for (var i in arrays) {
-    document.write("<br />" + arrays[i]);
+    if (arrays.hasOwnProperty(i)) {
+        document.write("<br />" + arrays[i]);
+    }
+//Pętla while
+    var i = 0;
+    while (i < arrays.length) {
+        document.write("<br />" + arrays[i]);
+        i++;
+    }
+//Pętla do while
+    do {
+        document.write("<br />" + arrays[i]);
+    } while (i < arrays.length)
+
 }
