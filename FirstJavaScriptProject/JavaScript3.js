@@ -1,0 +1,2 @@
+﻿//Zmienna globalna
+myScope = "global"
